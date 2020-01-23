@@ -27,3 +27,12 @@ The project is built using PHP, MySql, Html, CSS and Javascript.
 ## License
 
 This project is licensed under the GNU GPL License .
+
+## Screenshots
+![drawing](https://github.com/josharsh/QuizAnyTime/blob/master/Resources/1.PNG)
+![drawing](https://github.com/josharsh/QuizAnyTime/blob/master/Resources/2.PNG)
+![drawing](https://github.com/josharsh/QuizAnyTime/blob/master/Resources/3.PNG)
+![drawing](https://github.com/josharsh/QuizAnyTime/blob/master/Resources/4.PNG)
+![drawing](https://github.com/josharsh/QuizAnyTime/blob/master/Resources/5.PNG)
+![drawing](https://github.com/josharsh/QuizAnyTime/blob/master/Resources/6.PNG)
+![drawing](https://github.com/josharsh/QuizAnyTime/blob/master/Resources/7.PNG)
