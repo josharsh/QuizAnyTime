@@ -1,0 +1,1296 @@
+
+
+html { font-size: 16px; -webkit-font-smoothing: antialiased; }
+body {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+}
+h1, h2, h3, h4, h5, h6, .h2 {
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+	color: #1b1b1b;
+	text-transform: none;
+	line-height: 1;
+}
+.h2 {
+	display: inline-block;
+	font-size: 54px;
+	font-weight: 800;
+	color: #909090;
+	letter-spacing: 0px;
+	line-height: 1;
+	padding: 5px 20px;
+}
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1.2px;
+}
+a, a:hover, a:focus {color: #fff; text-decoration: none;}
+button, button:focus, a, a:hover, a:focus, input, input:active, input:focus, textarea,textarea:active, textarea:focus {outline: none;}
+.center{text-align:center;
+}
+
+.about-me,
+.services,
+.fun,
+.experience,
+.portfolio {
+	padding: 80px 0px 92px;
+}
+.sec-title {
+	text-align: center;
+}
+.sec-title span {
+	color: #1b1b1b;
+}
+.sec-main {
+	margin-top: 50px;
+}
+.r2 {
+	margin-top: 35px;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:white;
+	opacity:0.8;
+}
+.pattern {
+	background: url('../images/noise.png') repeat center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+.pattern2 {
+	background: url('../images/noise2.png') repeat center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+/* End Global Styles */
+
+/* ---------------------------------------
+			Start Download Resume Section
+----------------------------------------- */
+.download-resume {
+	position: fixed;
+	color: white;
+    top: 92%;
+    right: -15px;
+	padding: 7px 0px;
+	padding-right: 30px;
+	padding-left: 15px;
+	border-radius: 5px;
+	border-left: 2px solid #990000;
+	border-bottom: 2px solid #990000;
+	z-index: 1;
+	background-color: #C30000;	
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;	
+}
+.download-resume:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 10px black;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+/*End Download Resume Section */
+
+/* ---------------------------------------
+			Start Header Section 
+----------------------------------------- */
+.header .navbar {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.header .navbar:hover {
+	background-color: rgba(0, 0, 0, 0.9);
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.header .navbar .collapse ul {
+	float: none;
+    text-align: center;
+	padding: 0px;
+}
+.header .navbar .collapse .nav li {
+	display: inline-block;
+    float: none;
+	list-style: none;
+}
+.header .navbar  .navbar-collapse .navbar-nav a {
+	font-size: 12px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.header .navbar .navbar-collapse .navbar-nav a:hover {
+	font-weight: 900;
+	color: #C30000;
+	letter-spacing: 7px;
+	text-decoration: none;
+	cursor: pointer;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.header .header-main {
+	position: relative;
+	width: 100%;
+    height: 100vh;
+	z-index: 0;
+    background: url('../images/main.jpg') center center no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.header .header-main .heading {
+	padding-top: 42.5vh;
+    padding-bottom: 0px;
+}
+.header .header-main .heading #typing-effect {
+	display: inline;
+	font-size: 78px;
+	font-weight: 800;
+	color: white;
+}
+.header .header-main .heading span {
+	display: inline;
+    font-size: 78px;
+	font-weight: 100;
+    color: white;
+}
+.header .header-main .button {
+	display: inline-block;
+	font-size: 14px;
+    font-weight: 700;
+	color: white;
+	letter-spacing: 1px;
+    margin-top: 15px;
+	padding: 10px 35px;
+	border-radius: 50px;
+	border: 3px solid #C30000;
+	box-shadow: 1px 1px 10px black;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.header .header-main .button:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 10px black;
+    background-color: #C30000;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.header .header-main .animated-button {
+	position: absolute;
+    bottom: 20px;
+	left: 50%;
+	cursor: pointer;
+	-webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
+    -ms-transform: translateX(-50%); /* IE 9 */
+    transform: translateX(-50%);
+	-ms-animation: logomove 2s infinite;
+	-webkit-animation: logomove 2s infinite;
+	animation: logomove 2s infinite;
+}
+@-webkit-keyframes logomove {
+	0%{bottom: 20px;}
+	50%{bottom: 50px;}
+}
+@-ms-keyframes logomove {
+	0%{bottom: 20px;}
+	50%{bottom: 50px;}
+}
+@keyframes logomove {
+	0%{bottom: 20px;}
+	50%{bottom: 50px;}
+	
+}
+.header .header-main .animated-star-logo {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.header .header-main .animated-star-logo i {
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 20px;
+	-ms-animation: starrotate 2s infinite;
+	-webkit-animation: starrotate 2s infinite;
+	animation: starrotate 2s infinite;
+}
+@keyframes starrotate {
+	0%{color: #e74c3c;
+	   margin-bottom: 20px;
+	   -ms-transform: rotate(0deg); /* IE 9 */
+       -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+       transform: rotate(0deg);
+	  }
+	50%{margin-bottom: 50px;
+		color: #C30000;
+		-ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+	    }
+	100%{margin-bottom: 20px;
+		color: white;
+		-ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+	    }	
+}
+@-webkit-keyframes starrotate {
+	0%{color: #e74c3c;
+	   margin-bottom: 20px;
+	   -ms-transform: rotate(0deg); /* IE 9 */
+       -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+       transform: rotate(0deg);
+	  }
+	50%{margin-bottom: 50px;
+		color: #C30000;
+		-ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+	    }
+	100%{margin-bottom: 20px;
+		color: white;
+		-ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+	    }	
+}
+@-ms-keyframes starrotate {
+	0%{color: #e74c3c;
+	   margin-bottom: 20px;
+	   -ms-transform: rotate(0deg); /* IE 9 */
+       -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+       transform: rotate(0deg);
+	  }
+	50%{margin-bottom: 50px;
+		color: #C30000;
+		-ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+	    }
+	100%{margin-bottom: 20px;
+		color: white;
+		-ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+	    }	
+}
+/*End Header Section */
+
+/* ---------------------------------------
+			Start About Me Section 
+----------------------------------------- */
+.about-me .sec-main .left-col img {
+	width: 100%;
+    height: 100%;
+	border-radius: 3px;
+	border-left: 3px solid #C30000;
+	border-bottom: 3px solid #C30000;
+	border-right: 3px solid #c6c6c6;
+	border-top: 3px solid #c6c6c6;
+	-moz-transition: all 0.3s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.3s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.3s ease-in-out;
+}
+.about-me .sec-main .left-col img:hover {
+	box-shadow: 5px 8px 12px #cdcdcd;
+	-moz-transition: all 0.3s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.3s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.3s ease-in-out;
+}
+.about-me .sec-main .right-col h3 {
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: none;
+	text-align: left;
+}
+.about-me .sec-main .right-col span {
+	font-weight: 700;
+	color: #C30000;
+}
+.about-me .sec-main .right-col p {
+	font-size: 15px;
+	font-weight: 500;
+    color: #1b1b1b;
+    line-height: 1.6;
+	letter-spacing: 1px;
+	text-align: left;
+	margin-top: 10px;
+}
+.about-me .sec-main .right-col .skills ul{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.about-me .sec-main .right-col .skills li{
+	display: inline-block;
+	float: left;
+	list-style: none;
+	font-size: 15px;
+	font-weight: 700;
+	color: #828282;
+	text-transform: uppercase;
+	width: 45%;
+	margin-top: 19px;
+	margin-right: 10px;
+	padding: 7px;
+	border-bottom: 1px solid #c6c6c6;
+	border-left: 1px solid #c6c6c6;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.about-me .sec-main .right-col .skills li:hover {
+	font-weight: 900;
+	letter-spacing: 1px;
+	color: #C30000;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+/*End About Me Section */
+
+/* ---------------------------------------
+			Start Services Section 
+----------------------------------------- */
+.services {
+	background-color: black;
+}
+.services .sec-title span{
+	color: white;
+}
+.services .sec-main .service .service-icon {
+	display: block;	
+    font-size: 38px;
+    color: #C30000;
+	width: 48px;
+	margin-right: 10px;
+	float: left;
+}
+
+.services .sec-main .service  h3 {
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+.services .sec-main .service  p {
+	font-size: 13px;
+	font-weight: 400;
+	color: #f1f1f1;
+    line-height: 2;
+	margin-top: 20px;
+	margin-left: 62px;
+}
+/*End Services Section*/
+
+/* ---------------------------------------
+			Start Fun Section 
+----------------------------------------- */
+.fun {
+	position: relative;
+    width: 100%;
+	padding: 150px 0px 150px;
+    z-index: 0;
+	background: url("../images/newmain.jpg")center no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.fun .numbers p {
+	font-size: 20px;
+    font-weight: 700;
+	color: white;
+}
+.fun .numbers span {
+	font-weight: 300;
+	color: white;
+    letter-spacing: 20px;
+}
+.fun  h4 {
+	font-size: 35px;
+	font-weight: 800;
+    color: white;
+	letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 40px 0px;
+}
+.fun .button {
+	display: inline-block;
+	font-size: 15px;
+    font-weight: 800;
+	color: white;
+    letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 12px 30px;
+	border-radius: 50px;
+	box-shadow: 0px 0px 5px black;
+    background-color: #666666;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+
+.fun .button:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 10px black;
+    background-color: #C30000;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+/*End Fun Section*/
+
+/* ---------------------------------------
+			Start Experience Section 
+----------------------------------------- */
+.experience {
+	background-color: #f2f2f2;
+}
+.experience .sec-main .company-info .icon {
+	font-size: 44px;
+	color: #C30000;
+	width: 48px;
+    margin-right: 20px;
+	float: left;
+}
+.experience .sec-main .company-info h3{
+	font-size: 20px;
+	font-weight: 800;
+	line-height:1;
+	padding: 0px 0px;
+	float: left;
+}
+.experience .sec-main .company-info .years {
+	font-size: 18px;
+	font-weight: 400;
+	color: #555555;
+    margin-left: 5px;
+    line-height: 1;
+	float: left;
+}
+.experience .sec-main .company-info .designation {
+	font-size: 16px;
+	font-weight: 500;
+	color: #1b1b1b;
+	letter-spacing: 13px;	
+    text-align: left;	
+	margin-left: 69px;
+	padding: 5px 0px;
+	clear: both;
+    border-top: 1px dashed #c6c6c6;
+    border-bottom: 1px dashed #c6c6c6;
+}
+.experience .sec-main .company-info .text {
+	font-size: 14px;
+    font-weight: 500;
+	color: #555555;
+	line-height: 1.8;
+	margin-top: 20px;
+	margin-left: 69px;
+}
+/*End Experience Section*/
+
+/* ---------------------------------------
+			Start Testimonials Section 
+----------------------------------------- */
+.testimonials {
+	position: relative;
+	padding: 90px 0px 90px;
+	z-index: 0;
+    background: url("../images/mainwhite.jpg") no-repeat fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.testimonials .owl-carousel {
+	margin: 0px;
+}
+.testimonials .owl-carousel .item {
+    display: block;
+    width: 100%;
+    height: auto;
+	padding:0px;
+}
+.testimonials .owl-carousel .item .client-name {
+	font-size: 30px;
+	font-weight: 800;
+}
+.testimonials .owl-carousel .item .client-info {
+	font-size: 20px;
+	font-weight: 400;
+	color: #1b1b1b;
+    margin-top: 3px;
+}
+.testimonials .owl-carousel .item .icon {
+	margin: 20px 0px;
+    font-size: 60px;
+	color: #C30000;
+}
+.testimonials .owl-carousel .item .review p {
+	display: inline-block;
+	font-size: 20px;
+    font-weight: 700;
+	letter-spacing: 1px;
+	color: #555555;
+	width: 70%;
+}
+
+/*End Testimonials Section*/
+
+/* ---------------------------------------
+			Start Portfolio Section 
+----------------------------------------- */
+.portfolio {
+	background-color: black;
+}
+.portfolio .sec-title span {
+	color: white;
+}
+.portfolio .sec-main .controls .filter {
+	font-size: 13px;
+    font-weight: 800;
+	color: white;
+	margin: 0px 5px;
+	padding: 10px 30px;
+	border-radius: 50px;
+    border: 1px solid white;
+	background-color: black;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.portfolio .sec-main .controls .filter:hover {
+	border: 1px solid #C30000;
+	box-shadow: 3px 3px 10px black;
+    background-color: #C30000;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.portfolio .sec-main .projects{
+	margin-top: 0px;
+}
+.portfolio .sec-main .projects .mix {
+	display: none;
+	margin-top: 30px;
+}
+.portfolio .sec-main .projects .img-wrapper {
+	position: relative;
+    overflow: hidden;
+}
+.portfolio .sec-main .projects .img-wrapper .overlay-content {
+	position: absolute;
+    top: 0;
+    right: 100%;
+	width: 100%;
+    height: 100%;
+    border-top: 1px dotted #C30000;
+	background-color: rgba(0, 0, 0, 0.9);
+    -moz-transition: right 0.3s ease;/* IE 9*/
+    -webkit-transition: right 0.3s ease;/* Chrome, Safari, Opera */
+    transition: right 0.3s ease;
+}
+.portfolio .sec-main .projects .img-wrapper:hover .overlay-content {
+	position: absolute;
+    top: 0;
+	right: 0;
+	cursor: pointer;
+	-moz-transition: right 0.3s ease;/* IE 9*/
+	-webkit-transition: right 0.3s ease;/* Chrome, Safari, Opera */
+    transition: right 0.3s ease;
+}
+.portfolio .sec-main .projects .img-wrapper .overlay-content p {
+	position: absolute;
+	font-size: 10px;
+	font-weight: 600;
+    color: white;	
+	letter-spacing: 5px;
+	width: 100%;
+	top: 0%;
+    -moz-transition: all 0.4s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.4s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.4s ease-in-out;	
+}
+.portfolio .sec-main .projects .img-wrapper:hover .overlay-content p {
+	font-size: 20px;	
+	letter-spacing: 10px;
+    top: 39%;	
+    -moz-transition: all 0.4s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.4s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.4s ease-in-out;											 
+}
+.portfolio .sec-main .projects .img-wrapper .overlay-content span {
+	position: absolute;
+	display: block;
+	font-size: 5px;
+	font-weight: 700;
+	color: #C30000;
+	width: 100%;
+	top: 0%;
+    -moz-transition: all 0.4s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.4s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.4s ease-in-out;	
+}
+.portfolio .sec-main .projects .img-wrapper:hover .overlay-content span { 
+	font-size: 18px;
+    margin-top: 0px;
+	top: 51%;
+    -moz-transition: all 0.4s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.4s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.4s ease-in-out;										 
+}
+.portfolio .sec-main .projects .modal .modal-header {
+	padding: 20px;
+	border: none;
+}
+.portfolio .sec-main .projects .modal .modal-body {
+	padding: 20px;
+}
+.portfolio .sec-main .projects .modal .modal-body img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.portfolio .sec-main .projects .modal .modal-body p { 
+	line-height: 2;
+	padding-left: 10px;
+}
+.portfolio p.cat {
+	text-align: center; 
+	padding-left: 0;
+}
+.portfolio .sec-main .projects .modal .modal-header .close {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	line-height: 45px;
+	opacity: 1;
+	font-size: 25px;
+	background: #eee;
+	-webkit-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);/* Chrome, Safari, Opera */
+	-moz-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);/* IE 9*/
+	-ms-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+	-o-transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+    transition: all 0.3s cubic-bezier(0.68, -0.07, 0.25, 0.93);
+}
+.portfolio .sec-main .projects .modal .modal-header .close:hover {
+	color: #fff;
+	background: #222;
+}
+/*End Portfolio Section*/
+
+/* ---------------------------------------
+			Start Contact Section 
+----------------------------------------- */
+.contact {
+	padding-top: 80px;
+}
+.contact .sec-main .contact-form .form-group {
+	width: 80%;
+    margin: auto;
+	margin-bottom: 20px;
+}
+.contact .sec-main .contact-form .form-group .form-control {
+	color: #1b1b1b;
+	padding-left: 20px;
+	border: none;
+    background-color: #f2f2f2;   
+}
+.contact .sec-main .contact-form .submit-container {
+	width: 80%;
+    margin: auto;
+}
+.contact .sec-main .contact-form .form-group #message {
+	padding: 20px;
+	height: 200px;
+}
+.contact .sec-main .contact-form .submit-container .btn {
+	font-size: 13px;
+	font-weight: 700;
+	color: white;			
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 15px 0px;
+    background-color: black;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.contact .sec-main .contact-form .submit-container .btn:hover {
+	color: white;
+	background-color: #C30000;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.contact .contact-info {
+	margin-top: 92px;
+	padding: 45px 0px;
+    border-top: 1px solid #ecf0f1;	
+    background-color: #f2f2f2;
+}
+.contact .contact-info i {
+	font-size: 35px;
+	color: #1b1b1b;
+	margin-bottom: 20px;
+}
+.contact .contact-info a {
+	font-size: 16px;
+    font-weight: 500;
+    color: #1b1b1b;
+	text-decoration: none;
+    letter-spacing: 5px;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out; 
+}
+.contact .contact-info a:hover{
+	color: grey;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out; 
+}
+.contact .contact-info .address p {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+    font-weight: 500;
+	color: #1b1b1b;
+	letter-spacing: 5px;
+}
+.contact #map{
+	width: 100%;
+	height: 500px;
+}
+/*End Contact Section*/
+
+/* ---------------------------------------
+			Start Footer Section 
+----------------------------------------- */
+
+.footer .social-media-icons {
+	padding: 90px 0px;
+    background-color: #0a0a0a;
+}
+.footer i {
+	font-size: 37px;
+	color: white;
+	margin: 0px 20px;
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.footer i:hover {
+	color:#C30000;
+	transform: rotate(360deg);
+	-moz-transition: all 0.2s ease-in-out;/* IE 9*/
+    -webkit-transition: all 0.2s ease-in-out;/* Chrome, Safari, Opera */
+	transition: all 0.2s ease-in-out;
+}
+.footer p {
+	font-weight: 500;
+	color: white;
+    letter-spacing: 10px;
+	padding: 20px 0px;
+    background-color: black;
+}
+/*End Footer Section*/
+
+/* ---------------------------------------
+			Start Loader Page 
+----------------------------------------- */
+.loader{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color:#C30000;
+}
+.loader .loader-wrapper{
+	font-size: 60px;
+	font-weight: 200;
+	color: white;
+    letter-spacing: 20px;
+    line-height: 100vh;            
+}
+/*End Loader Page*/
+
+/* ---------------------------------------
+			Start Media Query
+----------------------------------------- */
+/*For Small laptops*/
+@media (max-width:1200px) {
+	/*Start Header Section*/
+	.header .navbar .navbar-collapse .navbar-nav a{
+		letter-spacing: 5px;
+		padding: 10px 10px;
+	}
+	.header .header-main .heading #typing-effect {
+		font-size: 60px;
+	}	
+	.header .header-main .heading span{
+		font-size: 60px;
+	}
+	/*End Header Section*/	
+	
+	/*Start Experience Section*/
+	.experience .sec-main .company-info .text {
+	    font-size: 15px;
+		line-height: 1.6;
+    }
+	/*End Experience Section*/
+}
+
+/*For Mini laptops*/
+@media (max-width:992px) {
+	/*Start Global Section*/
+	.about-me,
+    .services,
+    .experience,
+    .portfolio {
+	    padding: 60px 0px 72px;
+    }
+	 .fun{
+		padding: 80px 0px 80px;
+	}
+    .testimonials {
+		padding: 60px 0px;
+	}
+   
+	.sec-main{
+		margin-top: 60px;
+	}
+	/*End Global Section*/	
+	
+	/*Start Header Section*/
+	.header .navbar .navbar-collapse .navbar-nav a{
+		font-size: 12px;
+		letter-spacing: 3px;
+		padding: 10px 5px;
+		}
+	.header .header-main{
+		background-attachment: scroll;
+	}
+	/*End Header Section*/	
+	
+	/*Start About-Me Section*/
+	.about-me .sec-main .right-col h3{
+		margin-top: 40px;
+	}
+	/*End About-Me Section*/
+	
+	/*Start Fun Section*/
+	.fun{
+		background-attachment: scroll;
+	}
+	/*End Fun Section*/
+	
+	/*Start Testimonials Section*/
+	.testimonials{
+		background-attachment: scroll;
+	}
+	/*End Testimonials Section*/
+	
+	/*Start Contact Section*/
+	.contact{
+		padding-top: 10px;
+	}
+	.contact .sec-main .contact-form .form-group {
+	    margin-bottom: 10px;
+    }
+	.contact .contact-info {
+		margin-top: 20px;
+	}
+	.contact .contact-info a {
+	    font-size: 13px;
+	    letter-spacing: 2px;
+    }
+	.contact .contact-info .address p{
+		font-size: 13px;
+	    letter-spacing: 2px;
+	}
+	/*End Contact Section*/
+	
+}
+
+/*For IPads , Tablets etc laptops*/
+@media (max-width: 767px) {
+	
+	/*Start Global Styles*/ 
+	.about-me,
+    .services,
+    .experience,
+    .portfolio {
+	    padding: 40px 0px 52px;
+    }
+    .testimonials {
+		padding: 40px 0px;
+	}
+	.sec-main {
+		margin-top: 40px;
+	}
+	.h2{
+        font-size: 45px;		
+	}
+	.r2{
+		margin-top: 25px;
+	}
+	/*End Global Styles*/
+	
+	/*Start Header Section*/
+	.header .navbar {
+		padding: 10px;
+	}
+	.header .navbar .collapse  ul {
+		float: left;
+		text-align: left;
+	}
+	.header .navbar .collapse .nav li {
+		display: block;
+	}
+	.header .navbar .navbar-collapse {
+		border-top: 1px solid black;
+	}
+	.header .navbar .navbar-collapse .navbar-nav a {
+		padding: 5px 5px;
+	}
+	.header .header-main .heading #typing-effect {
+		font-size: 45px;
+	}	
+	.header .header-main .heading span {
+		font-size: 45px;
+	}
+	.header .header-main .button {
+	    font-size: 14px;
+        font-weight: 700;
+	    padding: 7px 25px;
+    }
+	
+	/*End Header Section*/
+	
+	/*Start Services Section*/
+	.services .sec-main .service:nth-child(1){
+		margin-top: 0px;	
+	}
+	.services .sec-main .service {
+		margin-top: 25px;
+	}
+	/*End Services Section*/
+	
+	/*Start Fun Section*/
+	.fun  h4 {
+	    font-size: 25px;
+        margin: 40px 0px;
+    }
+	/*End Fun Section*/
+	
+	/*Start Experience Section*/
+	.experience .sec-main .company-info:nth-child(1){
+		margin-top: 0px;	
+	}
+	.experience .sec-main .company-info{
+	    margin-top: 25px;
+    }
+	/*End Experience Section*/
+	
+	/*Start Testimonials Section*/
+	.testimonials .owl-carousel .item .review p {
+	    font-size: 18px;
+    }
+	/*End Testimonials Section*/
+	
+	/*Start Portfolio Section*/
+	.portfolio .sec-main {
+		padding: 0px 25px;
+	}
+	.portfolio .sec-main .controls {
+		margin-bottom: 15px;	
+	}
+	.portfolio .sec-main .controls .filter {
+	    font-size: 13px;
+		margin: 0px 2px;
+	    padding: 6px 16px;
+    }
+	.portfolio .sec-main .projects .mix {
+	    margin-top: 15px;
+    }
+	/*End Portfolio Section*/
+	
+	/*Start Contact Section*/
+	.contact{
+		padding-top: 20px;
+	}
+	.contact .contact-info {
+		margin-top: 0px;
+	}
+	.contact .contact-info i{
+		margin-bottom: 0px;
+	}
+	.contact .contact-info .phone-no, 
+	.contact .contact-info .address {
+		margin-bottom: 5px;
+    }
+	.contact #map{
+	height: 20px;
+    }
+	/*End Contact Section*/
+	
+	/*Start Footer Section*/
+	.footer .social-media-icons{
+		padding: 60px 0px;
+	}
+	.footer i{
+		font-size: 35px;
+	}
+	.footer p {
+        letter-spacing: 5px;
+	    padding: 20px 0px;
+    }
+	/*End Footer Section*/	
+}
+
+/*For Phones etc laptops*/
+@media (max-width: 480px) {
+	
+	/* Start Main Rules */
+	.h2 {
+		font-size: 30px;
+		line-height: 1;
+	}
+	/* End Main Rules */
+	
+	/*Start Global Styles*/ 
+	.about-me,
+    .services,
+    .experience,
+    .portfolio {
+	    padding: 30px 0px 42px;
+    }
+	.sec-main{
+		margin-top: 30px;
+	}
+	/*End Global Styles*/
+	
+	/*Start Download Resume Styles*/
+	.download-resume {
+        right:-15px;
+    }
+	/*End Download Resume Styles*/
+	
+	/*start Loader Section*/
+	.loader .loader-wrapper{
+	    font-size: 30px;
+        letter-spacing: 10px;           
+    }
+	/*End loader Section*/
+	
+	/*Start Header Section*/
+	.header .header-main .heading #typing-effect {
+		font-size: 30px;
+	}	
+	.header .header-main .heading span{
+		font-size: 30px;
+	}
+	.header .header-main .animated-button {
+		visibility: hidden;
+	}
+	/*End Header Section*/
+	
+	/*Start About-Me Section*/
+	.about-me .sec-main .right-col h3{
+		font-size: 18px;
+		line-height: 1.5;
+		margin-top: 25px;
+	}
+	.about-me .sec-main .right-col p{
+		font-size: 13px;
+	}
+	.about-me .sec-main .right-col .skills li{
+	    width: 100%;
+    }
+	/*End About-Me Section*/
+	
+	/*Start Services Section*/
+	.services .sec-main .service h3{
+		font-size: 18px;
+	}
+	.services .sec-main .service p{
+		font-size: 13px;
+		margin-top: 10px;
+	}
+	/*End Services Section*/
+	
+	/*Start Fun Section*/
+	.fun .numbers p {
+		font-size: 16px;
+	}
+	.fun .numbers span {
+		letter-spacing: 5px;
+	}
+	.fun  h4 {
+	    font-size: 23px;
+        margin: 30px 0px;
+    }
+	.fun .button {
+	    font-size: 13px;
+        font-weight: 700;
+        letter-spacing: 1px;
+	    padding: 7px 25px;
+   }
+	/*End Fun Section*/
+	
+	/*Start Experience Section*/
+	.experience .sec-main .company-info h3{
+		float: none;
+		font-size: 18px;
+    }
+	.experience .sec-main .company-info .years{
+		font-size: 15px;
+	    margin:10px 0px;
+    }
+	.experience .sec-main .company-info .designation{
+		font-size: 13px;
+    }
+	.experience .sec-main .company-info .text {
+		margin-top:10px;
+	}
+	/*End Experience Section*/
+	
+	/*Start Testimonials Section*/
+    .testimonials .owl-carousel .item .client-name {
+	   font-size: 26px;
+    }
+   .testimonials .owl-carousel .item .client-info {
+	   font-size: 18px;
+    }
+    .testimonials .owl-carousel .item .icon {
+	   margin: 20px 0px;
+       font-size: 60px;
+    }
+    .testimonials .owl-carousel .item .review p {
+	   font-size: 16px;
+       font-weight: 700;
+	   letter-spacing: 1px;
+	   width: 90%;
+    }
+	/*End Testimonials Section*/
+	
+	/*Start Portfolio Section*/
+	.portfolio .sec-main .controls .filter {
+	    font-size: 9px;
+		margin: 0px 2px;
+	    padding: 4px 10px;
+    }
+	.portfolio .sec-main {
+		padding: 0px;
+	}
+	.portfolio .sec-main .projects .mix {
+	    margin-top: 10px;
+    }
+	.portfolio .sec-main .projects .modal .modal-header {
+	    padding: 10px;
+    }
+    .portfolio .sec-main .projects .modal .modal-body {
+	    padding: 10px;
+    }
+    .portfolio .sec-main .projects .modal .modal-header h3 {
+		font-size: 18px;
+    }
+	.portfolio .sec-main .projects .modal .modal-header .close {
+	    font-size: 30px;
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    opacity: 1;
+	}
+	.portfolio .sec-main .projects .modal .modal-body img {
+	    margin-top: 10px;
+	    margin-bottom: 10px;
+	}
+	.portfolio .sec-main .projects .modal .modal-body p { 
+	    font-size: 13px;
+		color: black;
+	    line-height: 1.5;
+    }
+	/*End Portfolio Section*/
+	
+	/*Start Contact Section*/
+	.contact{
+		padding-top: 30px;
+	}
+	.contact .sec-main .contact-form .form-group {
+	    margin-bottom: 10px;
+    }
+	.contact .sec-main .contact-form .form-group #message {
+	    height: 100px;
+    }
+	.contact .sec-main .contact-form .submit-container .btn {
+	    font-size: 13px;		
+	    letter-spacing: 2px;
+	    padding: 7px 0px;
+    }
+	.contact .contact-info {
+		margin-top: 5px;
+	}
+	.contact .contact-info i{
+		font-size: 25px;
+	}
+	/*End Contact Section*/
+	
+	/*Start Footer Section*/
+	.footer .social-media-icons {
+		padding: 40px;
+	}
+	.footer i {
+	    font-size: 25px;
+	    margin: 0px 13px;
+    }
+	.footer p{
+		font-size: 13px;
+		letter-spacing: 2px;
+	}
+	/*End Footer Section*/
+}
